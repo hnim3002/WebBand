@@ -1,0 +1,82 @@
+/* PC */
+@media (min-width: 1024px) {
+    #header .mobile-menu {
+        display: none;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    #header .mobile-menu {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    #nav > li:first-child {
+        display: inline-block;
+        
+    }
+
+    #nav > li:last-child a {
+        visibility: hidden;
+	    top: 0;
+	    left: 0;
+        position: relative;
+    }
+
+    #nav > li:last-child a:after {
+        top: 0;
+	    left: 0;
+        width: 100%;
+        padding: 0 24px;
+        position: absolute;
+        content: "MERCH";
+        visibility: visible
+    }
+
+    #nav > li:hover {
+        color: #000;
+        background-color: #ccc;
+        cursor: pointer;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+        position: relative;
+    }
+
+    #header .search-but {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+
+    #content .member-sublist img {
+        width: 60%;
+    }
+
+    .tourdate-item {
+        padding: 0 8px 18px 8px;
+    }
+
+    .pading-top-16  {
+        padding-top: 16px;
+    } 
+    
+    .pading-top-8  {
+        padding-top: 8px;
+    }
+
+    .s-full-with,
+    .s-col-full {
+        width: 100%;
+    }
+}
